@@ -1,0 +1,156 @@
+body {
+  background-color: #E5E5E5;
+ 
+}
+.main_container {
+  margin: 10px;
+    
+  }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1600px;
+  min-height: calc(100vh - 30px);
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #382108;
+}
+  
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 250px;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: content-box;
+
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  min-height: 100px;
+  padding: 20px;
+    /*background-color: darkred;*/
+  background-color: #9D0208;
+  border-radius: 3px;
+}
+  
+.right {
+  justify-content: flex-end;
+}
+  
+.center {
+  justify-content: center;
+}
+  
+.between {
+  justify-content: space-between;
+}
+  
+.evenly {
+  justify-content: space-evenly;
+}
+  
+.top {
+  align-items: flex-start;
+}
+  
+.middle {
+  align-items: center;
+}
+  
+.bottom {
+  align-items: flex-end;
+}
+  
+.flex-baseline {
+  align-items: baseline;
+}
+  
+.self-bottom {
+  align-self: flex-end;
+}
+  
+.self-middle {
+  align-self: center;
+}
+  
+.item17{
+  flex: 0.5;
+}
+  
+.width {
+ width: calc(50% - 50px);
+}
+  
+.item * {
+  color: #9D0208;
+}
+  
+.orange {
+  background-color:#FAA307 ;
+}
+
+  /*Circle*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1600px;
+  min-height: calc(100vh - 30px);
+  margin: 0 auto;
+  padding: 10px;
+}
+.card {
+
+flex-direction: row;
+}
+
+.round {
+  background-color:#FAA307 ;
+  flex-wrap: wrap;    
+}
+  
+.wd {
+  Width: 273px;
+  Height: 220px;
+  display: flex;  
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 60%; 
+  display: flex;
+  gap: 10px;
+   
+}
+.start {
+ justify-content: flex-start;
+}
+.rightalign {
+ align-content: flex-end;
+ flex-direction:column-reverse;
+ align-items: flex-end;
+ 
+}
+.alignspace { 
+  justify-content: space-evenly;
+}
+.align-center {
+  justify-content: center;
+}
+
+.black {
+  background-color: #03071E;
+  }
+.red {
+  background-color: #6A040F;
+}
+
